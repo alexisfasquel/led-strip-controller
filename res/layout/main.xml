@@ -3,7 +3,8 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:weightSum="10">
+              android:weightSum="10"
+              android:background="@color/white">
 
     <LinearLayout
         android:id="@+id/header"
@@ -20,8 +21,7 @@
             android:textSize="18dp"
             android:padding="15dp"
             android:gravity="center"
-            android:text="Arduino Uno missing!"
-            android:background="@drawable/background"/>
+            android:text="Arduino Uno missing!"/>
 
     </LinearLayout>
 
@@ -33,92 +33,57 @@
         android:weightSum="3"
         android:gravity="center">
 
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="3dp"
-            android:background="#FF000000"/>
-
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:background="@color/red">
-
-            <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="fill_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/background">
+            android:gravity="center">
 
                 <SeekBar
                     android:id="@+id/red_slider"
-                    android:layout_margin="15dp"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"/>
-            </LinearLayout>
+                    android:layout_gravity="center"
+                    android:padding="40dp"
+                    android:progressDrawable="@drawable/slider_red"
+                    android:thumb="@drawable/control_red"/>
         </LinearLayout>
 
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="3dp"
-            android:background="#FF000000"/>
 
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:background="@color/green">
+            android:gravity="center">
 
-            <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="fill_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/background">
 
                 <SeekBar
                     android:id="@+id/green_slider"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_margin="15dp"/>
-            </LinearLayout>
-
+                    android:padding="40dp"
+                    android:progressDrawable="@drawable/slider_green"
+                    android:thumb="@drawable/control_green"/>
         </LinearLayout>
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="3dp"
-            android:background="#FF000000"/>
 
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:background="@color/blue">
+            android:gravity="center">
 
-            <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="fill_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:background="@drawable/background"
-                android:layout_gravity="center">
 
                 <SeekBar
                     android:id="@+id/blue_slider"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_margin="15dp"/>
-            </LinearLayout>
-        </LinearLayout>
+                    android:padding="40dp"
+                    android:progressDrawable="@drawable/slider_blue"
+                    android:thumb="@drawable/control_blue"/>
 
+        </LinearLayout>
 
     </LinearLayout>
 </LinearLayout>

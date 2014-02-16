@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LedStripController.iml" filepath="$PROJECT_DIR$/LedStripController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/led-strip-controller.iml" filepath="$PROJECT_DIR$/led-strip-controller.iml" />
     </modules>
   </component>
 </project>

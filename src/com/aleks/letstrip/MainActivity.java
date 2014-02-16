@@ -22,11 +22,15 @@ public class MainActivity extends Activity {
     private static final String TAG = "com.aleks.letstrip";
 
     private int[] colors = new int[]{0, 0, 0};
-    private Arduino mAdrduino;
+
+    private ArduinoUsb mAdrduinoUsb;
+    private ArduinoBluetooth mAdrduinoBlutooth;
 
     private View mHeader;
     private TextView mToaster;
     private SeekBar[] mSeekBars;
+
+
 
     private class ColorListener implements SeekBar.OnSeekBarChangeListener {
 
@@ -48,12 +52,13 @@ public class MainActivity extends Activity {
 
 
     private void setColors() {
-        mHeader.setBackgroundColor(Color.rgb(colors[RED_COLOR], colors[GREEN_COLOR], colors[BLUE_COLOR]));
-        mAdrduino.send(colors[RED_COLOR], colors[GREEN_COLOR], colors[BLUE_COLOR]);
+        //mHeader.setBackgroundColor(Color.rgb(colors[RED_COLOR], colors[GREEN_COLOR], colors[BLUE_COLOR]));
+        //mAdrduinoUsb.send(colors[RED_COLOR], colors[GREEN_COLOR], colors[BLUE_COLOR]);
+        //mAdrduinoBlutooth.send(colors[RED_COLOR], colors[GREEN_COLOR], colors[BLUE_COLOR]);
     }
 
 
-    private void enableControls(boolean enable) {
+    public void enableControls(boolean enable) {
         for (int i = RED_COLOR; i <= BLUE_COLOR; i ++) {
             mSeekBars[i].setEnabled(enable);
         }
@@ -82,10 +87,11 @@ public class MainActivity extends Activity {
         mSeekBars = new SeekBar[]{sk_red, sk_green, sk_blue };
         enableControls(false);
 
-        mAdrduino = new Arduino(this);
+        mAdrduinoUsb = new ArduinoUsb(this);
+        mAdrduinoBlutooth = new ArduinoBluetooth(this);
 
-        if(mAdrduino.findDevice()) {
-            mToaster.setText("Arduino Uno connected!");
+        if(mAdrduinoUsb.findDevice() || mAdrduinoBlutooth.connect()) {
+            mToaster.setText("ArduinoUsb Uno connected!");
             enableControls(true);
             new Handler().postDelayed(new Runnable() {
                 @Override
@@ -94,9 +100,10 @@ public class MainActivity extends Activity {
                 }
             }, 100);
         } else {
-            mToaster.setText("Arduino Uno missing!");
+            mToaster.setText("ArduinoUsb Uno missing!");
         }
         registerReceiver(mReceiver, new IntentFilter(UsbManager.ACTION_USB_DEVICE_DETACHED));
+        enableControls(true);
     }
 
 
@@ -104,8 +111,8 @@ public class MainActivity extends Activity {
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         if (UsbManager.ACTION_USB_DEVICE_ATTACHED.contains(intent.getAction())) {
-            if(mAdrduino.findDevice(intent)) {
-                mToaster.setText("Arduino Uno connected!");
+            if(mAdrduinoUsb.findDevice(intent)) {
+                mToaster.setText("ArduinoUsb Uno connected!");
                 enableControls(true);
                 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -114,7 +121,7 @@ public class MainActivity extends Activity {
                     }
                 }, 100);
             } else {
-                mToaster.setText("Arduino Uno missing!");
+                mToaster.setText("ArduinoUsb Uno missing!");
             }
         }
     }
@@ -124,13 +131,15 @@ public class MainActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         unregisterReceiver(mReceiver);
+        mAdrduinoBlutooth.onDestroy();
+
     }
 
 
     BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            mToaster.setText("Arduino Uno missing!");
+            mToaster.setText("ArduinoUsb Uno missing!");
             enableControls(false);
         }
     };

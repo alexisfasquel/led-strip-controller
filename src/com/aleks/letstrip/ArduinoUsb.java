@@ -17,11 +17,11 @@ import java.util.Iterator;
  * Time: 00:11
  * To change this template use File | Settings | File Templates.
  */
-public class Arduino {
+public class ArduinoUsb {
 
     private static final int ARDUINO_USB_VENDOR_ID = 0x2341;
     private static final int ARDUINO_UNO_R3_USB_PRODUCT_ID = 0x43;
-    private static final String TAG = "com.letstrip.powernap";
+    private static final String TAG = "com.aleks.letstrip";
 
     private Activity mActivity;
 
@@ -32,7 +32,7 @@ public class Arduino {
 
     private BroadcastReceiver mReceiver;
 
-    public Arduino (Activity activity) {
+    public ArduinoUsb(Activity activity) {
         mActivity = activity;
     }
 
