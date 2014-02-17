@@ -7,12 +7,12 @@
     android:drawable="@drawable/bar_unfilled"/>
 <item android:id="@android:id/secondaryProgress">
     <scale
-        android:drawable="@drawable/bar_filled_red"
+        android:drawable="@drawable/bar_red_filled"
         android:scaleWidth="100%" />
 </item>
 <item android:id="@android:id/progress">
     <scale
-        android:drawable="@drawable/bar_filled_red"
+        android:drawable="@drawable/bar_red_filled"
         android:scaleWidth="100%" />
 </item>
 

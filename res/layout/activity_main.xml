@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="10"
+              android:background="@color/white">
+
+
+
+    <TextView
+        android:id="@+id/toaster_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="45dp"
+        android:textColor="@color/grey"
+        android:text="Disconnected!"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/light_grey">
+    </View>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                android:id="@+id/red_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/slider_red"
+                android:thumb="@drawable/control_red"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                android:id="@+id/green_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:progressDrawable="@drawable/slider_green"
+                android:thumb="@drawable/control_green"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                android:id="@+id/blue_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:progressDrawable="@drawable/slider_blue"
+                android:thumb="@drawable/control_blue"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/light_grey">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center">
+
+
+        <ImageButton
+            android:id="@+id/scan_button"
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:background="@drawable/button_scan">
+
+        </ImageButton>
+
+    </LinearLayout>
+</LinearLayout>
+

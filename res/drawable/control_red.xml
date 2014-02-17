@@ -3,7 +3,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:drawable="@drawable/control_disabled" android:state_enabled="false"/>
-    <item android:drawable="@drawable/control_pressed_red" android:state_pressed="true"/>
-    <item android:drawable="@drawable/control_pressed_red" android:state_selected="true"/>
-    <item android:drawable="@drawable/control_normal_red"/>
+    <item android:drawable="@drawable/control_red_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/control_red_normal" android:state_selected="true"/>
+    <item android:drawable="@drawable/control_red_normal"/>
 </selector>
