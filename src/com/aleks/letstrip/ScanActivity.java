@@ -92,6 +92,6 @@ public class ScanActivity extends Activity {
     @Override
     protected void onPause() {
         super.onPause();
-        mService.stopDiscovery();
+        mFiller.cancel(true);
     }
 }

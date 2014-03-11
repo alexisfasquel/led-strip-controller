@@ -50,4 +50,9 @@ public class BtListFiller extends AsyncTask<Void, String, Void>{
             }
         });
     }
+
+    @Override
+    protected void onCancelled() {
+        mService.stopDiscovery();
+    }
 }

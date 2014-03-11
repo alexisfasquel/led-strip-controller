@@ -52,8 +52,12 @@ public class ArduinoUsb {
         }
     }
 
+    //Need to be called on the onDestroy function of the activity
     public void onDestroy() {
-        mActivity.unregisterReceiver(mReceiver);
+        if(mReceiver != null) {
+            mActivity.unregisterReceiver(mReceiver);
+            mReceiver = null;
+        }
     }
 
     public void send(int r, int g, int b) throws DisconnectedException {

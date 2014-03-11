@@ -22,7 +22,6 @@ import java.util.UUID;
 
 public class BluetoothService {
 
-    private static final String DEVICE_NAME = "Napiz";
     private static final String TAG = "com.aleks.letstrip";
     private final static int REQUEST_ENABLE_BT = 1;
 
@@ -73,7 +72,7 @@ public class BluetoothService {
     }
 
     public boolean startDiscovery(final DiscoveryListener listener) {
-        if(mReceiver != null) {
+        if(mBluetoothAdapter.isDiscovering()) {
             return false;
         }
         // Create a BroadcastReceiver for ACTION_FOUND
@@ -98,13 +97,26 @@ public class BluetoothService {
         IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
         mActivity.registerReceiver(mReceiver, filter);
         mBluetoothAdapter.startDiscovery();
+
+        //Adding 15 sec timout
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(15000);
+                } catch (InterruptedException e) {}
+                stopDiscovery();
+            }
+        }).start();
         return true;
     }
 
     public void stopDiscovery() {
-        mBluetoothAdapter.cancelDiscovery();
-        mActivity.unregisterReceiver(mReceiver);
-        mReceiver = null;
+        if(mReceiver != null) {
+            mBluetoothAdapter.cancelDiscovery();
+            mActivity.unregisterReceiver(mReceiver);
+            mReceiver = null;
+        }
     }
 
     public boolean connect(String name) {
@@ -119,23 +131,8 @@ public class BluetoothService {
             mBluetoothSocket.connect();
 
             mOutStream = mBluetoothSocket.getOutputStream();
-            final InputStream inputStream = mBluetoothSocket.getInputStream();
             if(mOutStream != null) {
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        try {
-                            while (true) {
-                                if(inputStream.available() > 0 );
-                                try {
-                                    Thread.sleep(2000);
-                                } catch (InterruptedException e) {}
-                            }
-                        } catch (IOException e) {
-                            mListener.onDisconnected();
-                        }
-                    }
-                });
+                new CheckerThread(mBluetoothSocket.getInputStream()).start();
                 return true;
             }
         } catch (IOException e) {
@@ -144,15 +141,12 @@ public class BluetoothService {
         return false;
     }
 
-    public String getConnectedDeviceName() {
-        return mBluetoothDevice.getName();
-    }
-
     public void disconnect() {
         try {
-            mBluetoothDevice = null;
             mBluetoothSocket.close();
-        } catch (Exception e) {}
+            mBluetoothDevice = null;
+        } catch (Exception e) {
+        }
     }
 
     public void send (int r, int g, int b) throws DisconnectedException {
@@ -176,4 +170,28 @@ public class BluetoothService {
             }
         }).start();
     }
+
+    private class CheckerThread extends Thread {
+
+        private InputStream mInputStream;
+
+        public CheckerThread(InputStream inputStream) {
+            mInputStream =inputStream;
+        }
+
+        @Override
+        public void run() {
+            try {
+                while (true) {
+                    if(mInputStream.available() > 0 );
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {}
+                }
+            } catch (IOException e) {
+                mListener.onDisconnected();
+            }
+        }
+    }
+
 }

@@ -19,10 +19,13 @@ public class MainActivity extends Activity {
     private static final int GREEN_COLOR  = 1;
     private static final int BLUE_COLOR  = 2;
 
-    private int[] colors = new int[]{0, 0, 0};
+    private int[] colors = new int[] {127, 127, 127};
 
     private ArduinoUsb mAdrduinoUsb;
     private BluetoothService mAdrduinoBlutooth;
+
+    private boolean mIsUsbConnected = false;
+    private boolean mIsBtConnected = false;
 
     private TextView mToaster;
     private SeekBar[] mSeekBars;
@@ -46,14 +49,24 @@ public class MainActivity extends Activity {
         sk_blue.setOnSeekBarChangeListener(new ColorListener(BLUE_COLOR));
 
         mSeekBars = new SeekBar[]{sk_red, sk_green, sk_blue };
-        setConnected(false);
+        setConnected(false, false);
 
         final Activity activity = this;
-        findViewById(R.id.scan_button).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.main_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(activity, ScanActivity.class);
-                startActivityForResult(intent, REQUEST_CODE);
+                if(mIsBtConnected) {
+
+
+
+                    ///YOURE THE ONE WHO"S FUCKED UP
+
+                    //mAdrduinoBlutooth.disconnect();
+                    setConnected(false, true);
+                } else {
+                    Intent intent = new Intent(activity, ScanActivity.class);
+                    startActivityForResult(intent, REQUEST_CODE);
+                }
             }
         });
 
@@ -64,19 +77,18 @@ public class MainActivity extends Activity {
 
             @Override
             public void onDisconnected() {
-                setConnected(false);
+                setConnected(false, true);
             }
         });
         mAdrduinoUsb = new ArduinoUsb(this, new ConnectionListener() {
             @Override
             public void onConnected() {
-                setConnected(true);
-                setColors();
+                setConnected(true, false);
             }
 
             @Override
             public void onDisconnected() {
-                setConnected(false);
+                setConnected(false, false);
             }
         });
 
@@ -86,11 +98,25 @@ public class MainActivity extends Activity {
 
     }
 
-    private void setConnected(boolean connected) {
-        if(connected) {
-            mToaster.setText("Connected!");
+    private void setConnected(boolean connected, boolean bluetooth) {
+        if(bluetooth) {
+            mIsBtConnected = connected;
         } else {
+            mIsUsbConnected = connected;
+        }
+        if(mIsBtConnected) {
+            //findViewById(R.id.main_button).setBackground(getResources().getDrawable(R.drawable.button_disconnect_normal));
+            mToaster.setText("Connected!");
+            setColors();
+            connected = true;
+        } else if(mIsUsbConnected) {
+            mToaster.setText("Connected!");
+            setColors();
+            connected = true;
+        } else {
+            //findViewById(R.id.main_button).setBackground(getResources().getDrawable(R.drawable.button_scan));
             mToaster.setText("Disconnected!");
+            connected = false;
         }
         for (int i = RED_COLOR; i <= BLUE_COLOR; i ++) {
             mSeekBars[i].setEnabled(connected);
@@ -103,8 +129,7 @@ public class MainActivity extends Activity {
         switch(requestCode) {
             case (REQUEST_CODE) : {
                 if (resultCode == Activity.RESULT_OK) {
-                    setConnected(true);
-                    setColors();
+                    setConnected(true, true);
                 }
                 break;
             }
@@ -121,7 +146,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onPause() {
         mAdrduinoBlutooth.disconnect();
-        setConnected(false);
+        setConnected(false, true);
         super.onPause();
     }
 

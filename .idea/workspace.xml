@@ -37,14 +37,14 @@
     <list default="true" id="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" name="Default" comment="" />
     <ignored path="led-strip-controller.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/ArduinoUsb.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392630806149" ignored="false" />
+    <file path="/ArduinoUsb.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392683748014" ignored="false" />
     <file path="/ArduinoBluetooth.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392583249412" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392587042930" ignored="false" />
-    <file path="/MainActivity.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392637611611" ignored="false" />
-    <file path="/Dummy.txt" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392586955081" ignored="false" />
-    <file path="$USER_HOME$/Downloads/GrowStuff/src/tools/RPi.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392557638108" ignored="false" />
-    <file path="/RPi.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392557084520" ignored="false" />
-    <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/Window.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392506011332" ignored="false" />
+    <file path="/MainActivity.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392684775237" ignored="false" />
+    <file path="/Dummy.txt" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393672355195" ignored="false" />
+    <file path="$USER_HOME$/Downloads/GrowStuff/src/tools/RPi.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393287083557" ignored="false" />
+    <file path="/RPi.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393214241053" ignored="false" />
+    <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/Window.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393255897165" ignored="false" />
     <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/MainPanel.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392502771821" ignored="false" />
     <file path="/MainPanel.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392502615403" ignored="false" />
     <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/components/Footer.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392556940370" ignored="false" />
@@ -52,10 +52,10 @@
     <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/components/Body.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392556926063" ignored="false" />
     <file path="/Body.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392556926063" ignored="false" />
     <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/components/ReloadButton.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392488383796" ignored="false" />
-    <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/GrowRes.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392503149574" ignored="false" />
-    <file path="/GrowRes.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392489272413" ignored="false" />
+    <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/GrowRes.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393578298117" ignored="false" />
+    <file path="/GrowRes.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393276874890" ignored="false" />
     <file path="/ReloadButton.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392488367777" ignored="false" />
-    <file path="/Window.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392505991709" ignored="false" />
+    <file path="/Window.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393255677295" ignored="false" />
     <file path="/red_control.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392514862659" ignored="false" />
     <file path="/red_slider.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392513514008" ignored="false" />
     <file path="/main.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392551012672" ignored="false" />
@@ -66,7 +66,7 @@
     <file path="/control_blue.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392552590473" ignored="false" />
     <file path="/button_scan.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392550988086" ignored="false" />
     <file path="/control_green.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392552611422" ignored="false" />
-    <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/LoadingPanel.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392558647031" ignored="false" />
+    <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/LoadingPanel.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392718714828" ignored="false" />
     <file path="$USER_HOME$/Downloads/GrowStuff/.idea/workspace.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392574955677" ignored="false" />
     <file path="/slider_green.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392561952862" ignored="false" />
     <file path="/list_activity.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392572840362" ignored="false" />
@@ -79,23 +79,36 @@
     <file path="/ClientListAdapter.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392576237320" ignored="false" />
     <file path="/ListActivity.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392576795223" ignored="false" />
     <file path="/activity_list.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392576780583" ignored="false" />
-    <file path="/activity_main.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392604309571" ignored="false" />
+    <file path="/activity_main.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392680762654" ignored="false" />
     <file path="/BlutoothService.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392580527715" ignored="false" />
-    <file path="/BtListFiller.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392634602760" ignored="false" />
+    <file path="/BtListFiller.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392683212215" ignored="false" />
     <file path="/DiscoveryListener.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392582457925" ignored="false" />
     <file path="$USER_HOME$/Documents/GeekFtourApp/GeekFtour/src/main/java/com/evento/geekftour/service/RssService.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392583494509" ignored="false" />
     <file path="/BtListActivity.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392587573566" ignored="false" />
     <file path="/App.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392586421203" ignored="false" />
-    <file path="/BluetoothService.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392637483700" ignored="false" />
-    <file path="/ScanActivity.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392635761015" ignored="false" />
+    <file path="/BluetoothService.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392684706594" ignored="false" />
+    <file path="/ScanActivity.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392683273274" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/aleks/letstrip/R.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392588893062" ignored="false" />
     <file path="/button_connect.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392592585218" ignored="false" />
     <file path="/loading_animation.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392603383549" ignored="false" />
-    <file path="/activity_scan.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392608266392" ignored="false" />
+    <file path="/activity_scan.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392651400861" ignored="false" />
     <file path="/ConnetorListener.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392605550036" ignored="false" />
     <file path="/UsbListener.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392611159813" ignored="false" />
     <file path="/DeconnexionException.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392630050087" ignored="false" />
     <file path="/DisconnectedException.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392630049274" ignored="false" />
+    <file path="$USER_HOME$/Downloads/GrowStuff/src/DragDropPanel.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392719127499" ignored="false" />
+    <file path="/DragDropPanel.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392741330487" ignored="false" />
+    <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/DragDropPanel.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392744668702" ignored="false" />
+    <file path="$USER_HOME$/Downloads/GrowStuff/src/ui/DropPanel.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392749457538" ignored="false" />
+    <file path="$USER_HOME$/Downloads/GrowStuff/src/tools/ConfigReader.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393213925157" ignored="false" />
+    <file path="/ConfigReader.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393213903828" ignored="false" />
+    <file path="/DropPanel.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1392749449403" ignored="false" />
+    <file path="$USER_HOME$/Downloads/GrowStuff/src/tools/Wifi.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393255936270" ignored="false" />
+    <file path="/Wifi.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393213100190" ignored="false" />
+    <file path="$USER_HOME$/Napiz/src/com/napiz/powernap/Activity/PowerNapActivity.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393672393253" ignored="false" />
+    <file path="$USER_HOME$/Napiz/project.properties" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393672398544" ignored="false" />
+    <file path="$USER_HOME$/Napiz/AndroidManifest.xml" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393672934059" ignored="false" />
+    <file path="$USER_HOME$/Napiz/src/com/napiz/powernap/Controller/BluetoothController.java" changelist="bd34c7dd-b2af-45f3-86a9-2aeeed882f32" time="1393673311146" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +165,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/BluetoothService.java" line="170" class="com.aleks.letstrip.Arduino.BluetoothService$2" package="com.aleks.letstrip.Arduino">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/BluetoothService.java" line="164" class="com.aleks.letstrip.Arduino.BluetoothService$3" package="com.aleks.letstrip.Arduino">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -167,7 +180,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/aleks/letstrip/ScanActivity.java" line="29" class="com.aleks.letstrip.ScanActivity$1" package="com.aleks.letstrip">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/aleks/letstrip/MainActivity.java" line="162" class="com.aleks.letstrip.MainActivity" package="com.aleks.letstrip">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -182,7 +195,67 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/aleks/letstrip/ScanActivity.java" line="39" class="com.aleks.letstrip.ScanActivity$1$1" package="com.aleks.letstrip">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/BluetoothService.java" line="74" class="com.aleks.letstrip.Arduino.BluetoothService" package="com.aleks.letstrip.Arduino">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/aleks/letstrip/BtListFiller.java" line="55" class="com.aleks.letstrip.BtListFiller" package="com.aleks.letstrip">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/BluetoothService.java" line="114" class="com.aleks.letstrip.Arduino.BluetoothService" package="com.aleks.letstrip.Arduino">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/BluetoothService.java" line="144" class="com.aleks.letstrip.Arduino.BluetoothService" package="com.aleks.letstrip.Arduino">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/aleks/letstrip/MainActivity.java" line="57" class="com.aleks.letstrip.MainActivity$1" package="com.aleks.letstrip">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -208,33 +281,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="35" selection-start="697" selection-end="697" vertical-scroll-proportion="-10.555555">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="32" selection-start="3512" selection-end="3512" vertical-scroll-proportion="-18.48">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+            <state line="30" column="46" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -243,68 +293,61 @@
       <file leaf-file-name="ScanActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/ScanActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="3721" selection-end="3721" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#753#3176#0" expanded="true" />
-                <element signature="e#1148#3142#0" expanded="true" />
-                <element signature="e#1445#1818#0" expanded="true" />
-                <element signature="e#1787#1788#0" expanded="true" />
-                <element signature="e#1896#2382#0" expanded="true" />
-                <element signature="e#2351#2352#0" expanded="true" />
-                <element signature="e#2579#3074#0" expanded="true" />
-                <element signature="e#3043#3044#0" expanded="true" />
-                <element signature="e#3123#3124#0" expanded="true" />
-                <element signature="e#3165#3166#0" expanded="true" />
-                <element signature="e#3284#3548#0" expanded="true" />
-                <element signature="e#3537#3538#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_scan.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_scan.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="48" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-12.222222">
+            <state line="94" column="8" selection-start="3729" selection-end="3729" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BluetoothService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BluetoothService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/BluetoothService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="46" selection-start="3897" selection-end="3906" vertical-scroll-proportion="0.58208954">
-              <folding>
-                <element signature="e#1137#1162#0" expanded="true" />
-                <element signature="e#2614#3574#0" expanded="true" />
-                <element signature="e#3563#3564#0" expanded="true" />
-                <element signature="e#4536#5125#0" expanded="true" />
-                <element signature="e#5106#5107#0" expanded="true" />
-                <element signature="method#getConnectedDeviceName#0;class#BluetoothService#0" expanded="false" />
-                <element signature="e#5899#6201#0" expanded="true" />
-                <element signature="e#6190#6191#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Activity.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Android SDK/platforms/android-19/android.jar!/android/app/Activity.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="440" column="0" selection-start="19689" selection-end="19689" vertical-scroll-proportion="0.0">
+            <state line="29" column="13" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Method.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Android SDK/platforms/android-19/android.jar!/java/lang/reflect/Method.class">
+      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0">
+            <state line="8" column="44" selection-start="228" selection-end="244" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BtListAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/BtListAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="13" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscoveryListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/DiscoveryListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/ConnectionListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisconnectedException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/DisconnectedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -313,25 +356,17 @@
       <file leaf-file-name="ArduinoUsb.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/ArduinoUsb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="21" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#881#1075#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#2079#2257#0" expanded="true" />
-                <element signature="e#2246#2247#0" expanded="true" />
-              </folding>
+            <state line="58" column="29" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BtListFiller.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BtListFiller.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/BtListFiller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="47" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#893#1071#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-              </folding>
+            <state line="29" column="48" selection-start="794" selection-end="794" vertical-scroll-proportion="0.6793478">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -355,21 +390,21 @@
         <option value="$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/ConnectorListener.java" />
         <option value="$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/DeconnexionException.java" />
         <option value="$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/DisconnectedException.java" />
-        <option value="$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/ArduinoUsb.java" />
-        <option value="$PROJECT_DIR$/src/com/aleks/letstrip/BtListFiller.java" />
-        <option value="$PROJECT_DIR$/src/com/aleks/letstrip/ScanActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_scan.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/src/com/aleks/letstrip/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/aleks/letstrip/BtListFiller.java" />
+        <option value="$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/ArduinoUsb.java" />
         <option value="$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/BluetoothService.java" />
+        <option value="$PROJECT_DIR$/src/com/aleks/letstrip/ScanActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/aleks/letstrip/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1680" />
-    <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1058" />
+    <option name="x" value="1852" />
+    <option name="y" value="30" />
+    <option name="width" value="1676" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -397,6 +432,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -456,104 +492,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="led-strip-controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="led-strip-controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="led-strip-controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="led-strip-controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="led-strip-controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="led-strip-controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="led-strip-controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="led-strip-controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="led-strip-controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="led-strip-controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GeekFtourApp" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/GrowStuff" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -597,19 +547,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -635,6 +572,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -723,31 +673,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="22" width="1920" height="1058" extended-state="6" />
-    <editor active="true" />
+    <frame x="1852" y="30" width="1676" height="1028" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817504" sideWeight="0.6727079" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3336887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3272921" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33259913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33590308" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3272921" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38487974" sideWeight="0.671825" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969324" sideWeight="0.67070484" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14674494" sideWeight="0.6727079" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32622603" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16809817" sideWeight="0.6640969" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33590308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944787" sideWeight="0.67070484" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944787" sideWeight="0.67070484" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817504" sideWeight="0.6729075" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -817,85 +767,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/ConnectionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/DisconnectedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/DiscoveryListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="54" selection-end="71" vertical-scroll-proportion="0.032967035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/BtListFiller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="47" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#893#1071#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/ArduinoUsb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="21" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#881#1075#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#2079#2257#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/loading_4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/loading_3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android SDK/platforms/android-19/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="440" column="0" selection-start="19689" selection-end="19689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Android SDK/platforms/android-19/android.jar!/java/lang/reflect/Method.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="54" column="0" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_scan.xml">
@@ -903,9 +777,12 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="48" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-12.222222">
-          <folding />
-        </state>
+        <state line="67" column="46" selection-start="2076" selection-end="2076" vertical-scroll-proportion="-12.62963" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android SDK/platforms/android-19/android.jar!/android/content/res/Resources.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="0" selection-start="7880" selection-end="7880" vertical-scroll-proportion="0.84562606" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
@@ -913,53 +790,86 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="697" selection-end="697" vertical-scroll-proportion="-10.555555">
+        <state line="112" column="45" selection-start="3733" selection-end="3733" vertical-scroll-proportion="0.7054409" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/ArduinoUsb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="29" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Android SDK/platforms/android-19/android.jar!/android/bluetooth/BluetoothSocket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="16" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android SDK/platforms/android-19/android.jar!/android/os/Binder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.46107784" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="32" selection-start="3512" selection-end="3512" vertical-scroll-proportion="-18.48">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="30" column="46" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/ScanActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="3721" selection-end="3721" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#753#3176#0" expanded="true" />
-            <element signature="e#1148#3142#0" expanded="true" />
-            <element signature="e#1445#1818#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#1896#2382#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2579#3074#0" expanded="true" />
-            <element signature="e#3043#3044#0" expanded="true" />
-            <element signature="e#3123#3124#0" expanded="true" />
-            <element signature="e#3165#3166#0" expanded="true" />
-            <element signature="e#3284#3548#0" expanded="true" />
-            <element signature="e#3537#3538#0" expanded="true" />
-          </folding>
+        <state line="94" column="8" selection-start="3729" selection-end="3729" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/DiscoveryListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/DisconnectedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/ConnectionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/Arduino/BluetoothService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="46" selection-start="3897" selection-end="3906" vertical-scroll-proportion="0.58208954">
-          <folding>
-            <element signature="e#1137#1162#0" expanded="true" />
-            <element signature="e#2614#3574#0" expanded="true" />
-            <element signature="e#3563#3564#0" expanded="true" />
-            <element signature="e#4536#5125#0" expanded="true" />
-            <element signature="e#5106#5107#0" expanded="true" />
-            <element signature="method#getConnectedDeviceName#0;class#BluetoothService#0" expanded="false" />
-            <element signature="e#5899#6201#0" expanded="true" />
-            <element signature="e#6190#6191#0" expanded="true" />
-          </folding>
+        <state line="29" column="13" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="44" selection-start="228" selection-end="244" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/BtListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aleks/letstrip/BtListFiller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="48" selection-start="794" selection-end="794" vertical-scroll-proportion="0.6793478">
+          <folding />
         </state>
       </provider>
     </entry>
